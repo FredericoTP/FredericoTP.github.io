@@ -51,6 +51,23 @@
     line-height: 25px;
 }
 
+#div-habilities {
+    text-align: center;
+    padding: 15px;
+}
+
+#habilities-itens {
+    padding: 20px 0 20px 0;
+}
+
+#div-habilities2 {
+    text-align: center;
+    padding: 15px;
+}
+
+#habilities-itens2 {
+    padding: 20px 0 20px 0;
+}
 
 
 
@@ -75,7 +92,11 @@ p, li {
 }
 
 li {
-    line-height: 40px;
+    line-height: 45px;
+}
+
+li:nth-of-type(odd) {
+    list-style-type: square;
 }
 
 .titles {
