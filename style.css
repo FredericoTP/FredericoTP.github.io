@@ -1,3 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    text-align: center;
+    padding: 15px;
+}
+
+#header-title{
+    width: 90%;
+    margin: auto;
+}
+
+#header-button {
+    width: 90%;
+    margin: auto;
+}
+
+.header-buttons {
+    max-width: 30%;
+    margin: 10px 30px;
+    display: inline-block;
+}
+
+#profile {
+    text-align: center;
+    padding: 15px;
+}
+
+#profile-content {
+    width: 90%;
+    margin: auto;
+}
+
+#profile-picture {
+    max-width: 47%;
+    margin: 50px 45px;
+    display: inline-block;
+    padding: 15px;
+    background-color: #40916C;
+    border-radius: 10%;
+}
+
+#profile-about {
+    max-width: 40%;
+    margin: 50px 45px;
+    display: inline-block;
+    padding: 15px;
+    line-height: 25px;
+}
+
+#div-habilities {
+    text-align: center;
+    padding: 15px;
+}
+
+#habilities-itens {
+    padding: 20px 0 20px 0;
+}
+
+#div-habilities2 {
+    text-align: center;
+    padding: 15px;
+}
+
+#habilities-itens2 {
+    padding: 20px 0 20px 0;
+}
+
+
+
+
 body {
     background-color: #000e06;
 }
@@ -18,7 +92,11 @@ p, li {
 }
 
 li {
-    line-height: 40px;
+    line-height: 45px;
+}
+
+li:nth-of-type(odd) {
+    list-style-type: square;
 }
 
 .titles {
@@ -39,9 +117,17 @@ li {
     color: #95D5B2;
     font-size: 20px;
     text-decoration: none;
-    font-family: 'Karla', sans-serif
+    font-family: 'Karla', sans-serif;
+    padding: 10px;
 }
 
 .pics {
     border-radius: 10%;
+}
+
+
+a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
 }
