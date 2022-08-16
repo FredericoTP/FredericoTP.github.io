@@ -24,6 +24,30 @@
     display: inline-block;
 }
 
+#profile {
+    text-align: center;
+    padding: 15px;
+}
+
+#profile-content {
+    width: 90%;
+    margin: auto;
+}
+
+#profile-picture {
+    max-width: 47%;
+    margin: 50px 45px;
+    display: inline-block;
+    padding: 15px;
+}
+
+#profile-about {
+    max-width: 40%;
+    margin: 50px 45px;
+    display: inline-block;
+    padding: 15px;
+}
+
 
 
 
