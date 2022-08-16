@@ -1,3 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    text-align: center;
+    padding: 15px;
+}
+
+#header-title{
+    width: 90%;
+    margin: auto;
+}
+
+#header-button {
+    width: 90%;
+    margin: auto;
+}
+
+.header-buttons {
+    max-width: 30%;
+    margin: 10px 30px;
+    display: inline-block;
+}
+
+
+
+
+
 body {
     background-color: #000e06;
 }
@@ -39,9 +69,17 @@ li {
     color: #95D5B2;
     font-size: 20px;
     text-decoration: none;
-    font-family: 'Karla', sans-serif
+    font-family: 'Karla', sans-serif;
+    padding: 10px;
 }
 
 .pics {
     border-radius: 10%;
+}
+
+
+a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
 }
