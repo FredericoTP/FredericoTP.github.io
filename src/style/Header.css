@@ -1,0 +1,9 @@
+.header-container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
