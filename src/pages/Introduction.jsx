@@ -1,7 +1,9 @@
+import '../style/Introduction.css';
+
 function Introduction() {
   return (
-    <div>
-      <p>asd</p>
+    <div className="introduction-container">
+      <h1>Frederico</h1>
     </div>
   )
 }
