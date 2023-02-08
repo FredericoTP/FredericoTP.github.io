@@ -1,6 +1,8 @@
+import '../style/Header.css';
+
 function Header() {
   return (
-    <header>
+    <header className='header-container'>
       <p>asd</p>
     </header>
   )

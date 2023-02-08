@@ -1,7 +1,11 @@
+import Introduction from "./pages/Introduction";
+import Header from "./components/Header";
+
 function App() {
   return (
     <div>
-      <p>Em Construção</p>
+      <Header />
+      <Introduction />
     </div>
   );
 }
