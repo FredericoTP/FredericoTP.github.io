@@ -1,6 +1,147 @@
 .introduction-container {
   height: 100vh;
   width: 100%;
-  background-image: url('../../images/bg.jpg');
+  background-image: linear-gradient(to bottom, transparent,transparent , black), url('../../images/bg.jpg');
   background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.introduction-container h1, .introduction-container h2 {
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  padding: 0.4em 1em;
+  position: absolute;
+  font-weight: 800;
+  left: 10px;
+}
+
+.introduction-container h2 {
+  padding: 8px 20px;
+  font-size: 17px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.introduction-title-one {
+  position: absolute;
+  transform: translate(0, -120%);
+}
+
+.introduction-title-two {
+  position: absolute;
+  transform: translate(0, 0);
+  width: 90%;
+}
+
+.introduction-title-three {
+  position: absolute;
+  transform: translate(0, 90%);
+  width: 80%;
+}
+
+.introduction-title-one span, .introduction-title-two span, .introduction-title-three span {
+  opacity: 0;
+  animation: appear-text 0.0001s linear forwards;
+  animation-delay: 1.4s;
+}
+
+.introduction-title-two span {
+  animation-delay: 2.8s;
+}
+
+.introduction-title-three span {
+  animation-delay: 3.5s;
+}
+
+.introduction-title-one:after, .introduction-title-two:after, .introduction-title-three:after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: rgb(112, 13, 74);
+  animation: review-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 1s;
+}
+
+.introduction-title-two:after {
+  animation-delay: 2s;
+}
+
+.introduction-title-three:after {
+  animation-delay: 3s;
+}
+
+@keyframes review-block {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+
+  50% {
+    left: 0;
+    width: 100%;
+  }
+
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+
+@keyframes appear-text {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and ( min-width : 360px ) {
+  .introduction-title-one {
+    position: absolute;
+    transform: translate(0, -100%);
+  }
+  
+  .introduction-title-two {
+    position: absolute;
+    transform: translate(0, 0);
+    width: fit-content;
+  }
+  
+  .introduction-title-three {
+    position: absolute;
+    transform: translate(0, 90%);
+    width: fit-content;
+  }
+}
+
+@media screen and ( min-width : 600px ) {
+  .introduction-container h1, .introduction-container h2 {
+    font-size: 30px;
+    left: 30px;
+  }
+  
+  .introduction-container h2 {
+    padding: 12px 30px;
+    font-size: 25px;
+  }
+}
+
+@media screen and ( min-width : 1080px ) {
+  .introduction-container h1, .introduction-container h2 {
+    font-size: 42px;
+    left: 100px;
+  }
+  
+  .introduction-container h2 {
+    padding: 16.8px 42px;
+    font-size: 30px;
+  }
 }
