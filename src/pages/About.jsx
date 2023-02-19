@@ -5,11 +5,13 @@ function About() {
     <div className="about-container">
       <h2 className="about-title">About me</h2>
       <div className="about-text-image-container">
-        <div>
+        <div className="about-box">
+          <div className="about-box-content">
           <img
             className="about-image-profile"
             src="https://github.com/FredericoTP/FredericoTP.github.io/blob/main/images/fred.jpeg?raw=true" 
             alt="Fred" />
+          </div>
         </div>
         <div className="about-text">
           <p>
