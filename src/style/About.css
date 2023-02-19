@@ -2,3 +2,7 @@
   background-color: white;
   min-height: 100vh;
 }
+
+.about-stacks-container img {
+  width: 50px;
+}
