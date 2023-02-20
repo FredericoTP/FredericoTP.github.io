@@ -185,6 +185,10 @@
     font-size: 20px;
   }
 
+  .about-stacks-container {
+    margin: 20px 0 50px;
+  }
+
   .about-stacks-container img, .about-links-container img {
     width: 40px;
   }
