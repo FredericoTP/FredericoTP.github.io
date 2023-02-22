@@ -3,7 +3,7 @@ import '../style/Projects.css';
 
 function Projects() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <h2 className="projects-title">Projetos</h2>
       <div className="carousel-container">
         <Carousel />

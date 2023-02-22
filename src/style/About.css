@@ -9,7 +9,7 @@
 .about-title {
   font-family: Poppins, sans-serif;
   color: white;
-  margin: 30px 0;
+  margin: 150px 0 30px;
 }
 
 .about-text-image-container {
@@ -47,7 +47,7 @@
   width: 150px;
   justify-content: space-around;
   padding: 10px 5px;
-  background-color: rgb(117, 117, 117);
+  background: linear-gradient(45deg, rgba(255,187,187,1) 0%, rgba(187,255,253,1) 100%);
   border-radius: 40px;
   margin: 10px 0;
 }
@@ -57,7 +57,7 @@
 }
 
 .about-links-container:hover {
-  background-color: white;
+  background: white;
   animation: blink 0.7s infinite alternate;
 }
 

@@ -2,7 +2,7 @@ import '../style/Introduction.css';
 
 function Introduction() {
   return (
-    <div className="introduction-container">
+    <div className="introduction-container" id="home">
       <h2 className="introduction-title-one">
         <span>Hello, I'm</span>
       </h2>
