@@ -48,7 +48,7 @@ function Navbar() {
 
         <div className="mobile-menu-icon">
           <button
-            onClick={ openMenu }
+            onClick={ () => openMenu() }
           >
             {
               showMenu ? (
@@ -74,22 +74,22 @@ function Navbar() {
           <div className="mobile-menu">
             <ul>
               <li className="nav-item">
-                <Link>
+                <Link to="home" spy={ true } smooth={ true } duration={ 500 }>
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link>
+                <Link to="about" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link>
+                <Link to="projects" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
                   Projects
                 </Link>
               </li>
               <li className="nav-item">
-                <Link>
+                <Link to="contact" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
                   Contact
                 </Link>
               </li>
