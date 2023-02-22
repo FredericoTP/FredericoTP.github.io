@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Introduction from "./pages/Introduction";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -8,7 +8,7 @@ import './style/App.css';
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Introduction />
       <About />
       <Projects />
