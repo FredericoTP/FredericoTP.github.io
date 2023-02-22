@@ -3,7 +3,7 @@ import '../style/Header.css';
 function Header() {
   return (
     <header className='header-container'>
-      <p>asd</p>
+      <h1>Frederico Tavares</h1>
     </header>
   )
 }
