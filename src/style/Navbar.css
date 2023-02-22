@@ -9,6 +9,7 @@
   left: 0;
   box-shadow: 0px 3px 10px rgb(70, 70, 70);
   width: 100%;
+  z-index: 4;
 }
 
 .nav-bar {
@@ -23,12 +24,16 @@
   align-items: center;
 }
 
-.nav-list {
+.nav-list, .mobile-menu {
   display: flex;
   align-items: center;
 }
 
-.nav-list ul {
+.mobile-menu {
+  margin-right: 50px;
+}
+
+.nav-list ul, .mobile-menu ul {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -46,7 +51,6 @@
   .header-container {
     background-color: rgba(0, 0, 0, 0.8);
     flex-direction: column;
-    z-index: 4;
   }
 
   .nav-bar {
@@ -74,12 +78,17 @@
     width: 30px;
   }
 
+  .mobile-menu {
+    margin-right: 0;
+  }
+
   .mobile-menu ul {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-left: 0;
     padding-bottom: 1rem;
+    width: 100%;
   }
 
   .mobile-menu .nav-item {
