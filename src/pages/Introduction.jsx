@@ -10,7 +10,7 @@ function Introduction() {
         <span>Frederico Tavares Pessoa</span>
       </h1>
       <h1 className="introduction-title-three">
-        <span>Desenvolvedor Web Front-end</span>
+        <span>Front-end Web Developer</span>
       </h1>
     </div>
   )
