@@ -25,10 +25,10 @@ function About() {
       </div>
       <div className="about-links-stacks-container">
         <div className="about-links-container">
-          <a href="blabla">
+          <a href="https://www.linkedin.com/in/fredericotp/" target="_blanck">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="linkedin"/>
           </a>
-          <a href="blabla">
+          <a href="https://github.com/FredericoTP" target="_blanck">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" />
           </a>
         </div>
