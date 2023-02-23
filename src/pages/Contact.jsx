@@ -17,7 +17,7 @@ function Contact() {
             className="contact-icon"
             src="https://cdn-icons-png.flaticon.com/512/542/542689.png" alt="email"
           />
-          <p className="contact-text">fredericotp@hotmail.com</p>
+          <p className="contact-text">dev.fredericotp@gmail.com</p>
         </div>
         <a
           className="contact-card"

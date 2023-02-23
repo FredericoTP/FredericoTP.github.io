@@ -14,7 +14,7 @@ function Navbar() {
     <header className='header-container'>
       <nav className="nav-bar">
         <div className="logo">
-          <h1>Logo</h1>
+          <h1 className="logo-first">F.T.</h1>
         </div>
 
         {
@@ -28,17 +28,17 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link to="about" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
-                    About
+                    Sobre
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="projects" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
-                    Projects
+                    Projetos
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="contact" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
-                    Contact
+                    Contato
                   </Link>
                 </li>
               </ul>
@@ -80,17 +80,17 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link to="about" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
-                  About
+                  Sobre
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="projects" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
-                  Projects
+                  Projetos
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="contact" spy={ true } smooth={ true } offset={ 50 } duration={ 500 }>
-                  Contact
+                  Contato
                 </Link>
               </li>
             </ul>
